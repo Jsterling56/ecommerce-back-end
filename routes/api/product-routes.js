@@ -21,11 +21,11 @@ router.get('/', (req, res) => {
       ]
     }
   )
-    .then(productData => res.json(productData))
+    .then(productData => res.render('products', {productData})
     .catch(err => {
       console.log(err);
       res.status(500).json(err);
-    });
+    }));
 });
 
 // get one product
