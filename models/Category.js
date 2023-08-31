@@ -6,6 +6,10 @@ class Category extends Model {}
 
 Category.init(
   {
+    category_name:{
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
     // define columns
   },
   {
@@ -16,5 +20,7 @@ Category.init(
     modelName: 'category',
   }
 );
+
+Category.hasMany(Product);
 
 module.exports = Category;
