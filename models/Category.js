@@ -20,8 +20,6 @@ Category.init(
     modelName: 'category',
   }
 );
-const Product = require('./Product');
 
-Category.hasMany(Product);
 
 module.exports = Category;

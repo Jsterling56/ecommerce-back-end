@@ -62,4 +62,4 @@ Testing of the code was completed in Insomnia.
 * Helpful links - (https://levelup.gitconnected.com/table-relationships-in-sequelize-2e2533580c2a), debugging was done using ChatGPT.
 
 ## Image
-! [Insomnia Image]()
+! [Insomnia Image](![Screen shot](image.png))

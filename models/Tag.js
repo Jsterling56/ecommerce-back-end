@@ -20,9 +20,7 @@ Tag.init(
     modelName: 'tag',
   }
 );
-const Product = require('./Product');
-const ProductTag = require('./ProductTag');
 
-Tag.belongsToMany(Product, { through: ProductTag });
+
 
 module.exports = Tag;
